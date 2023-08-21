@@ -43,9 +43,8 @@ Plot the performance plot
 Evaluate the model with the testing data.
 
 ## PROGRAM:
-
+~~~
 ## Importing modules
-
 import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import MinMaxScaler
@@ -99,11 +98,8 @@ X_test1 = Scaler.transform(X_test)
 X_n1 = [[30]]
 X_n1_1 = Scaler.transform(X_n1)
 ai_brain.predict(X_n1_1)
-
-
-
+~~~
 ## Dataset Information:
-
 ![261318641-989cd3fb-98b7-40a4-9194-178d1c9cf83b](https://github.com/AavulaTharun/basic-nn-model/assets/93427201/ad8ae1b2-435a-4029-9525-22b8310df32a)
 
 ## OUTPUT:
